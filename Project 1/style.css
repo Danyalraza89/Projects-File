@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    top: 0;
+}
+body{
+    background-color:  #385898;
+}
+@media only screen and (max-width: 600px) {
+    body {
+    background-color: #385898;
+   }
+} 
+
+.centrediv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    position: absolute;
+    height: 10%;
+    width: 29%;
+    background-color: #385898;
+    text-align: center;
+    top: 10%;
+    left: 5%;
+    font-family: 'DynaPuff', cursive;
+    color: #dcdde1;
+    
+}
+a{
+    height: 100px;
+    width: 100px;
+    border-radius:50px ;
+    background-color: #dcdde1;
+    text-align: center;
+    margin: 15px;
+    line-height: 114px;
+    box-shadow: 1px 4px 2px 2px darkgray;
+}
+a i {
+    transition: all 0.3s linear;
+}
+a:hover i {
+    transform : scale(1.4) ;
+}
+.fa-facebook{
+
+    color:#385898;;
+}
+.fa-linkedin{
+    color:  #0096e6; 
+}
+.fa-github{
+    color: black;
+
+}
+.fa-twitter{
+    color: #0096e6;
+}

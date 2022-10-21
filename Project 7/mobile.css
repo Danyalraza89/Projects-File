@@ -1,0 +1,37 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.nephew{
+    min-height: 50vh;
+    min-width:  100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.text{
+    padding: 10px 0;
+    text-align: center;
+}
+.text2{
+    font-size: 32px;
+}
+.bkl h2{
+    font-size: 24px;
+}
+.bkl h2 span{
+    font-size: 40px;
+}
+.container{
+    width: 85%;
+}
+.box{
+    width: 100%;
+    margin-bottom: 4%;
+}
+.self{
+    flex-direction: column;
+}

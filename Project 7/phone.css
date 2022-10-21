@@ -1,0 +1,36 @@
+.container{
+    flex-direction: column;
+    width: 250px;
+    height: 20%;
+}
+.nephew{
+    min-height: 20vh;
+}
+.text{
+    padding: 5px 0;
+    text-align: center;
+}
+.text2{
+    font-size: 30px;
+}
+.text2 span{
+    font-size: 16px;
+}
+.bkl h2{
+    font-size: 12px;
+}
+.bkl h2 span{
+    font-size: 20px;
+}
+.contact p{
+    font-size: 15px;
+}
+.about p{
+    font-size: 15px;
+}
+.contact h2{
+    font-size: 40px;
+}
+.about h2{
+    font-size: 40px;
+}

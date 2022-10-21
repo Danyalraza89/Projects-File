@@ -1,0 +1,47 @@
+html,body{ 
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+    label.logo{
+      font-size:32px;
+      padding-left: 60px;
+    }
+    nav ul{
+     margin: 20px;
+    }
+    nav li{
+      line-height: 40px;
+    }
+    nav a{
+      font-size: 17px;
+    }
+    .work{
+      width: 100%;
+      height: auto;
+    }
+    img.img1 {
+      height: 18rem;
+      width: 28rem;
+      border-radius: 5px;
+    }
+    img.img2 {
+      height: 18rem;
+      width: 28rem;
+      border-radius: 5px;
+    }
+    img.img3 {
+      height: 18rem;
+      width: 28rem;
+      border-radius: 5px;
+    }
+    img.img4 {
+      height: 18rem;
+      width: 28rem;
+      border-radius: 5px;
+    }
+
+    
+    

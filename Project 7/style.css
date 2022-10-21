@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Alkalami', serif;
+}
+.nephew{
+    background-image: url(./img/bg.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.text2{
+    font-size: 72px;
+    font-weight: 400;
+}
+.bkl{
+    background-color: black;
+    padding: 20px;
+}
+.bkl h2{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+}
+.bkl h2 span{
+    font-weight: 400;
+    font-size: 96px;
+}
+.container{
+    display: flex;
+    width: 920px;
+    height: auto;
+    margin: 30px auto;
+}
+.box{
+    width: 32%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-right: 2%;
+    background: white;
+    border-radius: 10px;
+    transition: 0.9;
+}
+.box:hover{
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h3,p{
+    text-align: center;
+    color: rgb(104, 92, 92);
+}
+p{
+    font-size: 15px;
+    padding: 0 5px;
+}
+.self{
+    display: flex;
+}
+.contact{
+    background-color: rgb(42, 42, 192);
+}
+.about{
+    background-color: rgb(70, 70, 180);
+}
+.contact, .about{
+    flex: 1;
+    min-height: 300px;
+    padding: 30px;
+    color: white;
+}
+.contact h2 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.contact p{
+    color: white;
+    font-size: 20px;
+}
+.about h2 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.about p{
+    color: white;
+    font-size: 20px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+}
